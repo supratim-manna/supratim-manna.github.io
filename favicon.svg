@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 420 420">
+  <defs>
+    <!-- Rainbow gradient for text (deeper + richer than border) -->
+    <linearGradient id="rainbowText" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF3B6A" stop-opacity="0.95"/>
+      <stop offset="25%" stop-color="#FF8A3C" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#FFD93B" stop-opacity="0.88"/>
+      <stop offset="75%" stop-color="#4DFFB2" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#6B74FF" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <!-- Rainbow border (lighter than text) -->
+    <linearGradient id="rainbowRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF7B9A"/>
+      <stop offset="20%" stop-color="#FFCE7A"/>
+      <stop offset="40%" stop-color="#FFF59D"/>
+      <stop offset="60%" stop-color="#9CFFD4"/>
+      <stop offset="80%" stop-color="#9CC4FF"/>
+      <stop offset="100%" stop-color="#D7B2FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Transparent interior -->
+  <circle cx="210" cy="210" r="170" fill="none" />
+
+  <!-- Rainbow border ring -->
+  <circle cx="210" cy="210" r="170"
+          fill="none"
+          stroke="url(#rainbowRing)"
+          stroke-width="10"/>
+
+<!-- Signature-style rainbow text -->
+<text x="50%" y="46%" text-anchor="middle"
+      font-family="Great Vibes, Pacifico, Segoe Script, Allura, cursive"
+      font-size="60" font-weight="400"
+      font-style="italic"
+      fill="url(#rainbowText)">
+  Supratim
+</text>
+
+<text x="50%" y="66%" text-anchor="middle"
+      font-family="Great Vibes, Pacifico, Segoe Script, Allura, cursive"
+      font-size="60" font-weight="400"
+      font-style="italic"
+      fill="url(#rainbowText)">
+  Manna
+</text>
+</svg>
